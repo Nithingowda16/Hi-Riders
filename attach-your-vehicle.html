@@ -1,0 +1,1003 @@
+<html lang="en"><plasmo-csui></plasmo-csui><head><style type="text/css">.swal-icon--error{border-color:#f27474;-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}.swal-icon--error__x-mark{position:relative;display:block;-webkit-animation:animateXMark .5s;animation:animateXMark .5s}.swal-icon--error__line{position:absolute;height:5px;width:47px;background-color:#f27474;display:block;top:37px;border-radius:2px}.swal-icon--error__line--left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.swal-icon--error__line--right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}@-webkit-keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@-webkit-keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}.swal-icon--warning{border-color:#f8bb86;-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}.swal-icon--warning__body{width:5px;height:47px;top:10px;border-radius:2px;margin-left:-2px}.swal-icon--warning__body,.swal-icon--warning__dot{position:absolute;left:50%;background-color:#f8bb86}.swal-icon--warning__dot{width:7px;height:7px;border-radius:50%;margin-left:-4px;bottom:-11px}@-webkit-keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}@keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}.swal-icon--success{border-color:#a5dc86}.swal-icon--success:after,.swal-icon--success:before{content:"";border-radius:50%;position:absolute;width:60px;height:120px;background:#fff;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal-icon--success:before{border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.swal-icon--success:after{border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px;-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}.swal-icon--success__ring{width:80px;height:80px;border:4px solid hsla(98,55%,69%,.2);border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.swal-icon--success__hide-corners{width:5px;height:90px;background-color:#fff;padding:1px;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal-icon--success__line{height:5px;background-color:#a5dc86;display:block;border-radius:2px;position:absolute;z-index:2}.swal-icon--success__line--tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.swal-icon--success__line--long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}@-webkit-keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}.swal-icon--info{border-color:#c9dae1}.swal-icon--info:before{width:5px;height:29px;bottom:17px;border-radius:2px;margin-left:-2px}.swal-icon--info:after,.swal-icon--info:before{content:"";position:absolute;left:50%;background-color:#c9dae1}.swal-icon--info:after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.swal-icon{width:80px;height:80px;border-width:4px;border-style:solid;border-radius:50%;padding:0;position:relative;box-sizing:content-box;margin:20px auto}.swal-icon:first-child{margin-top:32px}.swal-icon--custom{width:auto;height:auto;max-width:100%;border:none;border-radius:0}.swal-icon img{max-width:100%;max-height:100%}.swal-title{color:rgba(0,0,0,.65);font-weight:600;text-transform:none;position:relative;display:block;padding:13px 16px;font-size:27px;line-height:normal;text-align:center;margin-bottom:0}.swal-title:first-child{margin-top:26px}.swal-title:not(:first-child){padding-bottom:0}.swal-title:not(:last-child){margin-bottom:13px}.swal-text{font-size:16px;position:relative;float:none;line-height:normal;vertical-align:top;text-align:left;display:inline-block;margin:0;padding:0 10px;font-weight:400;color:rgba(0,0,0,.64);max-width:calc(100% - 20px);overflow-wrap:break-word;box-sizing:border-box}.swal-text:first-child{margin-top:45px}.swal-text:last-child{margin-bottom:45px}.swal-footer{text-align:right;padding-top:13px;margin-top:13px;padding:13px 16px;border-radius:inherit;border-top-left-radius:0;border-top-right-radius:0}.swal-button-container{margin:5px;display:inline-block;position:relative}.swal-button{background-color:#7cd1f9;color:#fff;border:none;box-shadow:none;border-radius:5px;font-weight:600;font-size:14px;padding:10px 24px;margin:0;cursor:pointer}.swal-button:not([disabled]):hover{background-color:#78cbf2}.swal-button:active{background-color:#70bce0}.swal-button:focus{outline:none;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(43,114,165,.29)}.swal-button[disabled]{opacity:.5;cursor:default}.swal-button::-moz-focus-inner{border:0}.swal-button--cancel{color:#555;background-color:#efefef}.swal-button--cancel:not([disabled]):hover{background-color:#e8e8e8}.swal-button--cancel:active{background-color:#d7d7d7}.swal-button--cancel:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(116,136,150,.29)}.swal-button--danger{background-color:#e64942}.swal-button--danger:not([disabled]):hover{background-color:#df4740}.swal-button--danger:active{background-color:#cf423b}.swal-button--danger:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(165,43,43,.29)}.swal-content{padding:0 20px;margin-top:20px;font-size:medium}.swal-content:last-child{margin-bottom:20px}.swal-content__input,.swal-content__textarea{-webkit-appearance:none;background-color:#fff;border:none;font-size:14px;display:block;box-sizing:border-box;width:100%;border:1px solid rgba(0,0,0,.14);padding:10px 13px;border-radius:2px;transition:border-color .2s}.swal-content__input:focus,.swal-content__textarea:focus{outline:none;border-color:#6db8ff}.swal-content__textarea{resize:vertical}.swal-button--loading{color:transparent}.swal-button--loading~.swal-button__loader{opacity:1}.swal-button__loader{position:absolute;height:auto;width:43px;z-index:2;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center;pointer-events:none;opacity:0}.swal-button__loader div{display:inline-block;float:none;vertical-align:baseline;width:9px;height:9px;padding:0;border:none;margin:2px;opacity:.4;border-radius:7px;background-color:hsla(0,0%,100%,.9);transition:background .2s;-webkit-animation:swal-loading-anim 1s infinite;animation:swal-loading-anim 1s infinite}.swal-button__loader div:nth-child(3n+2){-webkit-animation-delay:.15s;animation-delay:.15s}.swal-button__loader div:nth-child(3n+3){-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}@keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}.swal-overlay{position:fixed;top:0;bottom:0;left:0;right:0;text-align:center;font-size:0;overflow-y:auto;background-color:rgba(0,0,0,.4);z-index:10000;pointer-events:none;opacity:0;transition:opacity .3s}.swal-overlay:before{content:" ";display:inline-block;vertical-align:middle;height:100%}.swal-overlay--show-modal{opacity:1;pointer-events:auto}.swal-overlay--show-modal .swal-modal{opacity:1;pointer-events:auto;box-sizing:border-box;-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s;will-change:transform}.swal-modal{width:478px;opacity:0;pointer-events:none;background-color:#fff;text-align:center;border-radius:5px;position:static;margin:20px auto;display:inline-block;vertical-align:middle;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;z-index:10001;transition:opacity .2s,-webkit-transform .3s;transition:transform .3s,opacity .2s;transition:transform .3s,opacity .2s,-webkit-transform .3s}@media (max-width:500px){.swal-modal{width:calc(100% - 20px)}}@-webkit-keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}</style>
+
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+        <title>Attach Car To Company | Sea Hawk Travels</title>
+
+        <meta name="description" content="Partner with Sea Hawk Travels for cab attachment in Delhi, Gurugram, Bangalore, Hyderabad, Chennai, Mumbai, Pune, Indore, Ahmedabad and Kolkata today!
+
+">
+
+         <link rel="canonical" href="#">
+
+        <link rel="stylesheet" href="contact_bootstrap.css">
+
+        <link rel="stylesheet" href="contact_style.css">
+
+        <link rel="stylesheet" href="contact_media-queries.css">
+
+<!-- Google Tag Manager -->
+<script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/p09oe8YIFfKgcnqQ9m9k4aiB/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-+o4WMEIVaqJv2OSyUGcZwITebuccICWoZiIEvjf6rbs34UX8HV3S+g6ypB1KhLvK"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-HJ6Y9B7D7Y&amp;l=dataLayer&amp;cx=c&amp;gtm=45He51u0v9168289862za200"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-W7WXS7DN"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W7WXS7DN');</script>
+<!-- End Google Tag Manager --> 
+    <style>body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto !important}body.swal2-no-backdrop .swal2-container{background-color:rgba(0,0,0,0) !important;pointer-events:none}body.swal2-no-backdrop .swal2-container .swal2-popup{pointer-events:all}body.swal2-no-backdrop .swal2-container .swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}body.swal2-toast-shown .swal2-container{box-sizing:border-box;width:360px;max-width:100%;background-color:rgba(0,0,0,0);pointer-events:none}body.swal2-toast-shown .swal2-container.swal2-top{inset:0 auto auto 50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{inset:0 0 auto auto}body.swal2-toast-shown .swal2-container.swal2-top-start,body.swal2-toast-shown .swal2-container.swal2-top-left{inset:0 auto auto 0}body.swal2-toast-shown .swal2-container.swal2-center-start,body.swal2-toast-shown .swal2-container.swal2-center-left{inset:50% auto auto 0;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{inset:50% auto auto 50%;transform:translate(-50%, -50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{inset:50% 0 auto auto;transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-start,body.swal2-toast-shown .swal2-container.swal2-bottom-left{inset:auto auto 0 0}body.swal2-toast-shown .swal2-container.swal2-bottom{inset:auto auto 0 50%;transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{inset:auto 0 0 auto}@media print{body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown){overflow-y:scroll !important}body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown) .swal2-container{position:static !important}}div:where(.swal2-container){display:grid;position:fixed;z-index:1060;inset:0;box-sizing:border-box;grid-template-areas:"top-start     top            top-end" "center-start  center         center-end" "bottom-start  bottom-center  bottom-end";grid-template-rows:minmax(min-content, auto) minmax(min-content, auto) minmax(min-content, auto);height:100%;padding:.625em;overflow-x:hidden;transition:background-color .1s;-webkit-overflow-scrolling:touch}div:where(.swal2-container).swal2-backdrop-show,div:where(.swal2-container).swal2-noanimation{background:rgba(0,0,0,.4)}div:where(.swal2-container).swal2-backdrop-hide{background:rgba(0,0,0,0) !important}div:where(.swal2-container).swal2-top-start,div:where(.swal2-container).swal2-center-start,div:where(.swal2-container).swal2-bottom-start{grid-template-columns:minmax(0, 1fr) auto auto}div:where(.swal2-container).swal2-top,div:where(.swal2-container).swal2-center,div:where(.swal2-container).swal2-bottom{grid-template-columns:auto minmax(0, 1fr) auto}div:where(.swal2-container).swal2-top-end,div:where(.swal2-container).swal2-center-end,div:where(.swal2-container).swal2-bottom-end{grid-template-columns:auto auto minmax(0, 1fr)}div:where(.swal2-container).swal2-top-start>.swal2-popup{align-self:start}div:where(.swal2-container).swal2-top>.swal2-popup{grid-column:2;place-self:start center}div:where(.swal2-container).swal2-top-end>.swal2-popup,div:where(.swal2-container).swal2-top-right>.swal2-popup{grid-column:3;place-self:start end}div:where(.swal2-container).swal2-center-start>.swal2-popup,div:where(.swal2-container).swal2-center-left>.swal2-popup{grid-row:2;align-self:center}div:where(.swal2-container).swal2-center>.swal2-popup{grid-column:2;grid-row:2;place-self:center center}div:where(.swal2-container).swal2-center-end>.swal2-popup,div:where(.swal2-container).swal2-center-right>.swal2-popup{grid-column:3;grid-row:2;place-self:center end}div:where(.swal2-container).swal2-bottom-start>.swal2-popup,div:where(.swal2-container).swal2-bottom-left>.swal2-popup{grid-column:1;grid-row:3;align-self:end}div:where(.swal2-container).swal2-bottom>.swal2-popup{grid-column:2;grid-row:3;place-self:end center}div:where(.swal2-container).swal2-bottom-end>.swal2-popup,div:where(.swal2-container).swal2-bottom-right>.swal2-popup{grid-column:3;grid-row:3;place-self:end end}div:where(.swal2-container).swal2-grow-row>.swal2-popup,div:where(.swal2-container).swal2-grow-fullscreen>.swal2-popup{grid-column:1/4;width:100%}div:where(.swal2-container).swal2-grow-column>.swal2-popup,div:where(.swal2-container).swal2-grow-fullscreen>.swal2-popup{grid-row:1/4;align-self:stretch}div:where(.swal2-container).swal2-no-transition{transition:none !important}div:where(.swal2-container) div:where(.swal2-popup){display:none;position:relative;box-sizing:border-box;grid-template-columns:minmax(0, 100%);width:32em;max-width:100%;padding:0 0 1.25em;border:none;border-radius:5px;background:#fff;color:#545454;font-family:inherit;font-size:1rem}div:where(.swal2-container) div:where(.swal2-popup):focus{outline:none}div:where(.swal2-container) div:where(.swal2-popup).swal2-loading{overflow-y:hidden}div:where(.swal2-container) div:where(.swal2-popup).swal2-draggable{cursor:grab}div:where(.swal2-container) div:where(.swal2-popup).swal2-draggable div:where(.swal2-icon){cursor:grab}div:where(.swal2-container) div:where(.swal2-popup).swal2-dragging{cursor:grabbing}div:where(.swal2-container) div:where(.swal2-popup).swal2-dragging div:where(.swal2-icon){cursor:grabbing}div:where(.swal2-container) h2:where(.swal2-title){position:relative;max-width:100%;margin:0;padding:.8em 1em 0;color:inherit;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word;cursor:initial}div:where(.swal2-container) div:where(.swal2-actions){display:flex;z-index:1;box-sizing:border-box;flex-wrap:wrap;align-items:center;justify-content:center;width:auto;margin:1.25em auto 0;padding:0}div:where(.swal2-container) div:where(.swal2-actions):not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}div:where(.swal2-container) div:where(.swal2-actions):not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1))}div:where(.swal2-container) div:where(.swal2-actions):not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))}div:where(.swal2-container) div:where(.swal2-loader){display:none;align-items:center;justify-content:center;width:2.2em;height:2.2em;margin:0 1.875em;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;border-width:.25em;border-style:solid;border-radius:100%;border-color:#2778c4 rgba(0,0,0,0) #2778c4 rgba(0,0,0,0)}div:where(.swal2-container) button:where(.swal2-styled){margin:.3125em;padding:.625em 1.1em;transition:box-shadow .1s;box-shadow:0 0 0 3px rgba(0,0,0,0);font-weight:500}div:where(.swal2-container) button:where(.swal2-styled):not([disabled]){cursor:pointer}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm){border:0;border-radius:.25em;background:initial;background-color:#7066e0;color:#fff;font-size:1em}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm):focus-visible{box-shadow:0 0 0 3px rgba(112,102,224,.5)}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-deny){border:0;border-radius:.25em;background:initial;background-color:#dc3741;color:#fff;font-size:1em}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-deny):focus-visible{box-shadow:0 0 0 3px rgba(220,55,65,.5)}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-cancel){border:0;border-radius:.25em;background:initial;background-color:#6e7881;color:#fff;font-size:1em}div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-cancel):focus-visible{box-shadow:0 0 0 3px rgba(110,120,129,.5)}div:where(.swal2-container) button:where(.swal2-styled).swal2-default-outline:focus-visible{box-shadow:0 0 0 3px rgba(100,150,200,.5)}div:where(.swal2-container) button:where(.swal2-styled):focus-visible{outline:none}div:where(.swal2-container) button:where(.swal2-styled)::-moz-focus-inner{border:0}div:where(.swal2-container) div:where(.swal2-footer){margin:1em 0 0;padding:1em 1em 0;border-top:1px solid #eee;color:inherit;font-size:1em;text-align:center;cursor:initial}div:where(.swal2-container) .swal2-timer-progress-bar-container{position:absolute;right:0;bottom:0;left:0;grid-column:auto !important;overflow:hidden;border-bottom-right-radius:5px;border-bottom-left-radius:5px}div:where(.swal2-container) div:where(.swal2-timer-progress-bar){width:100%;height:.25em;background:rgba(0,0,0,.2)}div:where(.swal2-container) img:where(.swal2-image){max-width:100%;margin:2em auto 1em;cursor:initial}div:where(.swal2-container) button:where(.swal2-close){z-index:2;align-items:center;justify-content:center;width:1.2em;height:1.2em;margin-top:0;margin-right:0;margin-bottom:-1.2em;padding:0;overflow:hidden;transition:color .1s,box-shadow .1s;border:none;border-radius:5px;background:rgba(0,0,0,0);color:#ccc;font-family:monospace;font-size:2.5em;cursor:pointer;justify-self:end}div:where(.swal2-container) button:where(.swal2-close):hover{transform:none;background:rgba(0,0,0,0);color:#f27474}div:where(.swal2-container) button:where(.swal2-close):focus-visible{outline:none;box-shadow:inset 0 0 0 3px rgba(100,150,200,.5)}div:where(.swal2-container) button:where(.swal2-close)::-moz-focus-inner{border:0}div:where(.swal2-container) div:where(.swal2-html-container){z-index:1;justify-content:center;margin:0;padding:1em 1.6em .3em;overflow:auto;color:inherit;font-size:1.125em;font-weight:normal;line-height:normal;text-align:center;word-wrap:break-word;word-break:break-word;cursor:initial}div:where(.swal2-container) input:where(.swal2-input),div:where(.swal2-container) input:where(.swal2-file),div:where(.swal2-container) textarea:where(.swal2-textarea),div:where(.swal2-container) select:where(.swal2-select),div:where(.swal2-container) div:where(.swal2-radio),div:where(.swal2-container) label:where(.swal2-checkbox){margin:1em 2em 3px}div:where(.swal2-container) input:where(.swal2-input),div:where(.swal2-container) input:where(.swal2-file),div:where(.swal2-container) textarea:where(.swal2-textarea){box-sizing:border-box;width:auto;transition:border-color .1s,box-shadow .1s;border:1px solid #d9d9d9;border-radius:.1875em;background:rgba(0,0,0,0);box-shadow:inset 0 1px 1px rgba(0,0,0,.06),0 0 0 3px rgba(0,0,0,0);color:inherit;font-size:1.125em}div:where(.swal2-container) input:where(.swal2-input).swal2-inputerror,div:where(.swal2-container) input:where(.swal2-file).swal2-inputerror,div:where(.swal2-container) textarea:where(.swal2-textarea).swal2-inputerror{border-color:#f27474 !important;box-shadow:0 0 2px #f27474 !important}div:where(.swal2-container) input:where(.swal2-input):focus,div:where(.swal2-container) input:where(.swal2-file):focus,div:where(.swal2-container) textarea:where(.swal2-textarea):focus{border:1px solid #b4dbed;outline:none;box-shadow:inset 0 1px 1px rgba(0,0,0,.06),0 0 0 3px rgba(100,150,200,.5)}div:where(.swal2-container) input:where(.swal2-input)::placeholder,div:where(.swal2-container) input:where(.swal2-file)::placeholder,div:where(.swal2-container) textarea:where(.swal2-textarea)::placeholder{color:#ccc}div:where(.swal2-container) .swal2-range{margin:1em 2em 3px;background:#fff}div:where(.swal2-container) .swal2-range input{width:80%}div:where(.swal2-container) .swal2-range output{width:20%;color:inherit;font-weight:600;text-align:center}div:where(.swal2-container) .swal2-range input,div:where(.swal2-container) .swal2-range output{height:2.625em;padding:0;font-size:1.125em;line-height:2.625em}div:where(.swal2-container) .swal2-input{height:2.625em;padding:0 .75em}div:where(.swal2-container) .swal2-file{width:75%;margin-right:auto;margin-left:auto;background:rgba(0,0,0,0);font-size:1.125em}div:where(.swal2-container) .swal2-textarea{height:6.75em;padding:.75em}div:where(.swal2-container) .swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;background:rgba(0,0,0,0);color:inherit;font-size:1.125em}div:where(.swal2-container) .swal2-radio,div:where(.swal2-container) .swal2-checkbox{align-items:center;justify-content:center;background:#fff;color:inherit}div:where(.swal2-container) .swal2-radio label,div:where(.swal2-container) .swal2-checkbox label{margin:0 .6em;font-size:1.125em}div:where(.swal2-container) .swal2-radio input,div:where(.swal2-container) .swal2-checkbox input{flex-shrink:0;margin:0 .4em}div:where(.swal2-container) label:where(.swal2-input-label){display:flex;justify-content:center;margin:1em auto 0}div:where(.swal2-container) div:where(.swal2-validation-message){align-items:center;justify-content:center;margin:1em 0 0;padding:.625em;overflow:hidden;background:#f0f0f0;color:#666;font-size:1em;font-weight:300}div:where(.swal2-container) div:where(.swal2-validation-message)::before{content:"!";display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center}div:where(.swal2-container) .swal2-progress-steps{flex-wrap:wrap;align-items:center;max-width:100%;margin:1.25em auto;padding:0;background:rgba(0,0,0,0);font-weight:600}div:where(.swal2-container) .swal2-progress-steps li{display:inline-block;position:relative}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step{z-index:20;flex-shrink:0;width:2em;height:2em;border-radius:2em;background:#2778c4;color:#fff;line-height:2em;text-align:center}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step{background:#2778c4}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step{background:#add8e6;color:#fff}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step-line{background:#add8e6}div:where(.swal2-container) .swal2-progress-steps .swal2-progress-step-line{z-index:10;flex-shrink:0;width:2.5em;height:.4em;margin:0 -1px;background:#2778c4}div:where(.swal2-icon){position:relative;box-sizing:content-box;justify-content:center;width:5em;height:5em;margin:2.5em auto .6em;border:.25em solid rgba(0,0,0,0);border-radius:50%;border-color:#000;font-family:inherit;line-height:5em;cursor:default;user-select:none}div:where(.swal2-icon) .swal2-icon-content{display:flex;align-items:center;font-size:3.75em}div:where(.swal2-icon).swal2-error{border-color:#f27474;color:#f27474}div:where(.swal2-icon).swal2-error .swal2-x-mark{position:relative;flex-grow:1}div:where(.swal2-icon).swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}div:where(.swal2-icon).swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;transform:rotate(45deg)}div:where(.swal2-icon).swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;transform:rotate(-45deg)}div:where(.swal2-icon).swal2-error.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-error.swal2-icon-show .swal2-x-mark{animation:swal2-animate-error-x-mark .5s}div:where(.swal2-icon).swal2-warning{border-color:#f8bb86;color:#f8bb86}div:where(.swal2-icon).swal2-warning.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-warning.swal2-icon-show .swal2-icon-content{animation:swal2-animate-i-mark .5s}div:where(.swal2-icon).swal2-info{border-color:#3fc3ee;color:#3fc3ee}div:where(.swal2-icon).swal2-info.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-info.swal2-icon-show .swal2-icon-content{animation:swal2-animate-i-mark .8s}div:where(.swal2-icon).swal2-question{border-color:#87adbd;color:#87adbd}div:where(.swal2-icon).swal2-question.swal2-icon-show{animation:swal2-animate-error-icon .5s}div:where(.swal2-icon).swal2-question.swal2-icon-show .swal2-icon-content{animation:swal2-animate-question-mark .8s}div:where(.swal2-icon).swal2-success{border-color:#a5dc86;color:#a5dc86}div:where(.swal2-icon).swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;border-radius:50%}div:where(.swal2-icon).swal2-success [class^=swal2-success-circular-line][class$=left]{top:-0.4375em;left:-2.0635em;transform:rotate(-45deg);transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}div:where(.swal2-icon).swal2-success [class^=swal2-success-circular-line][class$=right]{top:-0.6875em;left:1.875em;transform:rotate(-45deg);transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}div:where(.swal2-icon).swal2-success .swal2-success-ring{position:absolute;z-index:2;top:-0.25em;left:-0.25em;box-sizing:content-box;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%}div:where(.swal2-icon).swal2-success .swal2-success-fix{position:absolute;z-index:1;top:.5em;left:1.625em;width:.4375em;height:5.625em;transform:rotate(-45deg)}div:where(.swal2-icon).swal2-success [class^=swal2-success-line]{display:block;position:absolute;z-index:2;height:.3125em;border-radius:.125em;background-color:#a5dc86}div:where(.swal2-icon).swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.8125em;width:1.5625em;transform:rotate(45deg)}div:where(.swal2-icon).swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;transform:rotate(-45deg)}div:where(.swal2-icon).swal2-success.swal2-icon-show .swal2-success-line-tip{animation:swal2-animate-success-line-tip .75s}div:where(.swal2-icon).swal2-success.swal2-icon-show .swal2-success-line-long{animation:swal2-animate-success-line-long .75s}div:where(.swal2-icon).swal2-success.swal2-icon-show .swal2-success-circular-line-right{animation:swal2-rotate-success-circular-line 4.25s ease-in}[class^=swal2]{-webkit-tap-highlight-color:rgba(0,0,0,0)}.swal2-show{animation:swal2-show .3s}.swal2-hide{animation:swal2-hide .15s forwards}.swal2-noanimation{transition:none}.swal2-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}.swal2-rtl .swal2-close{margin-right:initial;margin-left:0}.swal2-rtl .swal2-timer-progress-bar{right:0;left:auto}.swal2-toast{box-sizing:border-box;grid-column:1/4 !important;grid-row:1/4 !important;grid-template-columns:min-content auto min-content;padding:1em;overflow-y:hidden;background:#fff;box-shadow:0 0 1px rgba(0,0,0,.075),0 1px 2px rgba(0,0,0,.075),1px 2px 4px rgba(0,0,0,.075),1px 3px 8px rgba(0,0,0,.075),2px 4px 16px rgba(0,0,0,.075);pointer-events:all}.swal2-toast>*{grid-column:2}.swal2-toast h2:where(.swal2-title){margin:.5em 1em;padding:0;font-size:1em;text-align:initial}.swal2-toast .swal2-loading{justify-content:center}.swal2-toast input:where(.swal2-input){height:2em;margin:.5em;font-size:1em}.swal2-toast .swal2-validation-message{font-size:1em}.swal2-toast div:where(.swal2-footer){margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-toast button:where(.swal2-close){grid-column:3/3;grid-row:1/99;align-self:center;width:.8em;height:.8em;margin:0;font-size:2em}.swal2-toast div:where(.swal2-html-container){margin:.5em 1em;padding:0;overflow:initial;font-size:1em;text-align:initial}.swal2-toast div:where(.swal2-html-container):empty{padding:0}.swal2-toast .swal2-loader{grid-column:1;grid-row:1/99;align-self:center;width:2em;height:2em;margin:.25em}.swal2-toast .swal2-icon{grid-column:1;grid-row:1/99;align-self:center;width:2em;min-width:2em;height:2em;margin:0 .5em 0 0}.swal2-toast .swal2-icon .swal2-icon-content{display:flex;align-items:center;font-size:1.8em;font-weight:bold}.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-toast div:where(.swal2-actions){justify-content:flex-start;height:auto;margin:0;margin-top:.5em;padding:0 .5em}.swal2-toast button:where(.swal2-styled){margin:.25em .5em;padding:.4em .6em;font-size:1em}.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:1.6em;height:3em;border-radius:50%}.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-0.8em;left:-0.5em;transform:rotate(-45deg);transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-0.25em;left:.9375em;transform-origin:0 1.5em;border-radius:0 4em 4em 0}.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-tip{animation:swal2-toast-animate-success-line-tip .75s}.swal2-toast .swal2-success.swal2-icon-show .swal2-success-line-long{animation:swal2-toast-animate-success-line-long .75s}.swal2-toast.swal2-show{animation:swal2-toast-show .5s}.swal2-toast.swal2-hide{animation:swal2-toast-hide .1s forwards}@keyframes swal2-show{0%{transform:scale(0.7)}45%{transform:scale(1.05)}80%{transform:scale(0.95)}100%{transform:scale(1)}}@keyframes swal2-hide{0%{transform:scale(1);opacity:1}100%{transform:scale(0.5);opacity:0}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-0.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.8125em;width:1.5625em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-rotate-success-circular-line{0%{transform:rotate(-45deg)}5%{transform:rotate(-45deg)}12%{transform:rotate(-405deg)}100%{transform:rotate(-405deg)}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;transform:scale(0.4);opacity:0}50%{margin-top:1.625em;transform:scale(0.4);opacity:0}80%{margin-top:-0.375em;transform:scale(1.15)}100%{margin-top:0;transform:scale(1);opacity:1}}@keyframes swal2-animate-error-icon{0%{transform:rotateX(100deg);opacity:0}100%{transform:rotateX(0deg);opacity:1}}@keyframes swal2-rotate-loading{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes swal2-animate-question-mark{0%{transform:rotateY(-360deg)}100%{transform:rotateY(0)}}@keyframes swal2-animate-i-mark{0%{transform:rotateZ(45deg);opacity:0}25%{transform:rotateZ(-25deg);opacity:.4}50%{transform:rotateZ(15deg);opacity:.8}75%{transform:rotateZ(-5deg);opacity:1}100%{transform:rotateX(0);opacity:1}}@keyframes swal2-toast-show{0%{transform:translateY(-0.625em) rotateZ(2deg)}33%{transform:translateY(0) rotateZ(-2deg)}66%{transform:translateY(0.3125em) rotateZ(2deg)}100%{transform:translateY(0) rotateZ(0deg)}}@keyframes swal2-toast-hide{100%{transform:rotateZ(1deg);opacity:0}}@keyframes swal2-toast-animate-success-line-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-0.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes swal2-toast-animate-success-line-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}</style><script src="chrome-extension://ajdpfmkffanmkhejnopjppegokpogffp/assets/prompt.js"></script><style type="text/css" id="mytempCss">._8mqQwQ { display: none; } ._1TWLMK.icF5zO { opacity: 0.01; }</style></head>
+    <body>
+ <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7WXS7DN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <!-- main-navbar  -->
+
+
+
+        <div class="main-hero" style="display: block;">
+
+            <!-- header section load with js -->
+
+            <section class="header" id="header"><!-- Google tag (gtag.js) -->
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=GTM-W7WXS7DN"></script>
+
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+
+
+  gtag('config', 'GTM-W7WXS7DN');
+
+</script>
+
+<!-- Google tag (gtag.js)
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=GTM-W7WXS7DN"></script>
+
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+
+
+  gtag('config', 'G-HJ6Y9B7D7Y');
+
+</script> -->
+
+<meta name="google-site-verification" content="rxJl4BSbFisz1OWh_5SGM_xm0ty71eXmZP-b4YKyvzM">
+
+
+<div id="top" class="top-header">
+
+        <div class="container">
+
+            <div class="all-information">
+
+                <div class="contact-numbers">
+
+                    <p>
+
+                        <img src="data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='16px' height='16px' viewBox='0 0 16 16' enable-background='new 0 0 16 16' xml:space='preserve'%3E%3Cpath fill='%23ffffff' d='M11.323,14.62c-0.86,0.409-2.864,1.611-6.096-4.996C2.022,3.071,4.166,2.053,4.956,1.622C4.975,1.611,6.11,1.025,6.112,1.024l1.916,3.918L6.886,5.532C5.683,6.207,8.185,11.323,9.417,10.7c0.047-0.024,1.128-0.579,1.131-0.581l1.933,3.904C12.477,14.026,11.39,14.587,11.323,14.62z'/%3E%3C/svg%3E" style="margin-top: -3px;" alt="phone">
+
+                       Cab Attachments - <a href="tel:xxxxx-xxxxx">+91-xxxxx-xxxxx</a>
+
+                    </p>
+
+                    <p>|</p>
+
+                    <p>Corporate Enquiry - <a href="tel:xxxxx-xxxxx">+91-xxxxx-xxxxx</a></p>
+
+                </div>
+
+                <div class="contact-time-email">
+
+                    <p>
+
+                        <img src="data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='16px' height='16px' viewBox='0 0 16 16' enable-background='new 0 0 16 16' xml:space='preserve'%3E%3Cpath fill='%23ffffff' d='M8,1.172C4.229,1.172,1.172,4.23,1.172,8c0,3.773,3.058,6.828,6.828,6.828c3.772,0,6.828-3.055,6.828-6.828C14.828,4.23,11.772,1.172,8,1.172z M12.058,9.036H6.942v-5.43h1.375V7.66h3.74V9.036L12.058,9.036z'/%3E%3C/svg%3E" style="margin-top: -3px;" alt="watch">
+
+                        Mon - Sat (9 am - 6 pm)
+
+                    </p>
+
+                    <p><a href="mailto:hiriderssmartmobilitysolutions@gmail.com">|MAIL US</a></p>
+
+                </div>
+
+                <div class="contact-others">
+
+                   
+
+                    <a href="attach-your-vehicle.html">ATTACH CAR TO COMPANY</a>
+
+                </div>
+
+                <div class="media-icons desk-media">
+
+                    <a href="https://www.facebook.com/Iseahawk" target="_blank">
+
+                      
+                    </a>
+
+                    <a href="https://www.instagram.com/seahawktravels/" target="_blank">
+
+
+                    </a>
+
+                    <a href="https://www.linkedin.com/company/seahawk-travels/" target="_blank">
+
+                        
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+   
+    <div class="scroll-top-position" id="scroll_top_position" style="position: absolute; top: 40px;">
+
+        <div class="container">
+
+            <div class="main-header" id="main_header">
+
+                <h1>
+
+                    <a href="/" class="nav-logo">
+
+
+                    </a>
+
+                </h1>
+
+                <div class="contact-numbers-mob">
+
+                    <img src="phone-iconmob.png" height="12px" alt="phone">
+
+                    <p>
+
+                       Cab Attachments<br> <a href="tel:XXXXX-XXXXX" style="color:#1f365c;">+91-xxxxx-xxxxx</a><br>Corporate Enquiry<br><a href="tel:919999644907" style="color:#1f365c;">+91-9999644907</a>
+
+                    </p>
+
+                </div>
+
+                <a onclick="sidebarOpen()" class="bar-menu">
+
+                    <img src="menu.png" alt="alt">
+
+                </a>
+
+    
+
+                <!-- main-navbar with mobile menu -->
+
+                <div class="custm-navbar" id="sidebar">
+
+                    <div class="close-bx" onclick="sidebarClose()">
+
+                        <img src="close.png" alt="close">
+
+                    </div>
+
+                    <ul class="nav-bar">
+
+                        <li class="nav-item">
+
+                            <a href="Hi_index.html" class="nav-links" id="a_index">home</a>
+
+                        </li>
+
+                        <li class="nav-item dropdown">
+
+                            <a href="about.html" class="nav-links" id="a_about">about us <img src="data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='8px' height='8px' fill='%231f365c' viewBox='0 0 8 8' enable-background='new 0 0 8 8' xml:space='preserve'%3E%3Cpath d='M7.81,2.554L7.425,2.169c-0.134-0.127-0.289-0.19-0.467-0.19c-0.182,0-0.336,0.063-0.463,0.19L4,4.664L1.504,2.169c-0.126-0.127-0.28-0.19-0.462-0.19c-0.178,0-0.334,0.063-0.467,0.19l-0.38,0.385C0.064,2.684,0,2.84,0,3.021C0,3.206,0.064,3.36,0.195,3.483l3.343,3.343C3.661,6.956,3.814,7.021,4,7.021c0.182,0,0.337-0.065,0.467-0.195L7.81,3.483C7.937,3.356,8,3.202,8,3.021C8,2.843,7.937,2.688,7.81,2.554z'/%3E%3C/svg%3E" class="chevron-icon" alt="own-chevron" height="10px"></a>
+
+                            <div class="dropdown-content">
+
+                                <a href="our-structure.html">
+
+                                    <p id="a_our_structure">Our Structure</p>
+
+                                </a>
+
+                                <!--<a href="team.html">
+
+                                    <p id="a_team">Team</p>
+
+                                </a>-->
+
+                                <a href="franchise.html">
+
+                                    <p id="a_franchise">Franchise</p>
+
+                                </a>
+
+                            </div>
+
+                        </li>
+
+                        <li class="nav-item dropdown">
+
+                            <a href="#" class="nav-links" id="a_services">services <img src="data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='8px' height='8px' fill='%231f365c' viewBox='0 0 8 8' enable-background='new 0 0 8 8' xml:space='preserve'%3E%3Cpath d='M7.81,2.554L7.425,2.169c-0.134-0.127-0.289-0.19-0.467-0.19c-0.182,0-0.336,0.063-0.463,0.19L4,4.664L1.504,2.169c-0.126-0.127-0.28-0.19-0.462-0.19c-0.178,0-0.334,0.063-0.467,0.19l-0.38,0.385C0.064,2.684,0,2.84,0,3.021C0,3.206,0.064,3.36,0.195,3.483l3.343,3.343C3.661,6.956,3.814,7.021,4,7.021c0.182,0,0.337-0.065,0.467-0.195L7.81,3.483C7.937,3.356,8,3.202,8,3.021C8,2.843,7.937,2.688,7.81,2.554z'/%3E%3C/svg%3E" class="chevron-icon" alt="own-chevron" height="10px"></a>
+
+                            <div class="dropdown-content">
+
+                                <a href="employee-transport-services.html">
+
+                                    <p id="a_employee_transport_services">Employee Transport Services</p>
+
+                                </a>
+
+                                <a href="corporate-car-rentals.html">
+
+                                    <p id="a_corporate_car_rentals">Corporate Car Rentals</p>
+
+                                </a>
+
+                                <a href="corporate-fleet-management.html">
+
+                                    <p id="a_corporate_fleet_management">Corporate Fleet Management</p>
+
+                                </a>
+
+                                <a href="luxury-rentals.html">
+
+                                    <p id="a_luxury_rentals">Luxury Rentals</p>
+
+                                </a>
+
+                               <!-- <a href="school-fleet.html">
+
+                                    <p id="a_school_fleet">School Fleet</p>
+
+                                </a>-->
+
+                                <a href="electric-fleet.html">
+
+                                    <p id="a_electric_fleet">Electric Fleet</p>
+
+                                </a>
+
+                               <!-- <a href="hotel-travel-desks.html">
+
+                                    <p id="a_hotel_travel_desks">Hotel Travel Desks</p>
+
+                                </a>-->
+
+                            </div>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a href="our-client.html" class="nav-links" id="a_our_client">our clients</a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a href="technology.html" class="nav-links" id="a_technology">technology</a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a href="safety.html" class="nav-links" id="a_safety">safety</a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a href="contact.html" class="nav-links" id="a_contact">contact us</a>
+
+                        </li>
+
+                       
+
+                        <ul class="mobile-menu-contact">
+
+                            <li class="mobile-menu-contact-item">
+
+                                <a href="gallery.html" class="mobile-menu-contact-item-links"> <img src="image-gallery.png" height="15px" alt="image-gallery"> &nbsp; Gallary </a>
+
+                            </li>
+
+                            <li class="mobile-menu-contact-item">
+
+                                <a href="career.html" class="mobile-menu-contact-item-links"> <img src="career.png" height="15px" alt="career"> &nbsp; Careers </a>
+
+                            </li>
+
+                            <li class="mobile-menu-contact-item">
+
+                                <a href="attach-your-vehicle.html" class="mobile-menu-contact-item-links"> <img src="car.png" height="15px" alt="car"> &nbsp; ATTACH CAR TO COMPANY </a>
+
+                            </li>
+
+        
+
+                            <li class="mobile-menu-contact-item">
+
+                                <div class="media-icons">
+
+                                  
+
+                                    </a>
+
+                                </div>
+
+                            </li>
+
+                        </ul>
+
+                    </ul>
+
+    
+
+                    <!-- <ul class="mobile-menu-contact">
+
+                        <li class="mobile-menu-contact-item">
+
+                            <a href="gallery" class="mobile-menu-contact-item-links"> <img src="assets/images/png-icons/image-gallery.png" height="15px" alt="image-gallery" /> &nbsp; Gallary </a>
+
+                        </li>
+
+                        <li class="mobile-menu-contact-item">
+
+                            <a href="career" class="mobile-menu-contact-item-links"> <img src="assets/images/png-icons/career.png" height="15px" alt="career" /> &nbsp; Careers </a>
+
+                        </li>
+
+                        <li class="mobile-menu-contact-item">
+
+                            <a href="attach-your-vehicle" class="mobile-menu-contact-item-links"> <img src="assets/images/png-icons/car.png" height="15px" alt="car" /> &nbsp; ATTACH CAR TO COMPANY </a>
+
+                        </li>
+
+    
+
+                        <li class="mobile-menu-contact-item">
+
+                            <div class="media-icons">
+
+                                <a href="https://www.facebook.com/seahawkgroup/">
+
+                                    <img src="assets/images/png-icons/fb.png" height="18px" alt="fb" />
+
+                                </a>
+
+                                <a href="https://www.instagram.com/seahawktravels/">
+
+                                    <img src="assets/images/png-icons/instagram.png" height="18px" alt="instagram" />
+
+                                </a>
+
+                                <a href="https://www.linkedin.com/company/seahawk-travels/">
+
+                                    <img src="assets/images/png-icons/linkedin.png" height="18px" alt="linkedin" />
+
+                                </a>
+
+                            </div>
+
+                        </li>
+
+                    </ul> -->
+
+                </div>
+
+            </div>
+
+            <!-- custome-navbar end-->
+
+        </div>
+
+    </div>
+
+
+
+<script>
+
+    function fn_menuhigh() {
+
+  var sPath = window.location.pathname;
+
+  var sPage = sPath.substring(sPath.lastIndexOf("/") + 1);
+
+  //alert(sPage)
+
+  if (sPage == "" || sPage == "index") {
+
+      document.getElementById('a_index').classList.add('active');
+
+  }
+
+
+
+ else if (sPage == "our-client") {
+
+      document.getElementById('a_our_client').classList.add('active');
+
+  }
+
+
+
+  else if (sPage == "about") {
+
+      document.getElementById('a_about').classList.add('active');
+
+  }
+
+
+
+  else if (sPage == "our-structure") {
+
+      document.getElementById('a_about').classList.add('active');
+
+      document.getElementById('a_our_structure').classList.add('active');
+
+  }
+
+
+
+  else if (sPage == "team") {
+
+      document.getElementById('a_about').classList.add('active');
+
+      document.getElementById('a_team').classList.add('active');
+
+  }
+
+
+
+  else if (sPage == "franchise") {
+
+      document.getElementById('a_about').classList.add('active');
+
+      document.getElementById('a_franchise').classList.add('active');
+
+  }
+
+
+
+  else if (sPage == "employee-transport-services") {
+
+      document.getElementById('a_services').classList.add('active');
+
+      document.getElementById('a_employee_transport_services').classList.add('active');
+
+    //   document.getElementById('ETS_a').classList.add('active');
+
+  }
+
+
+
+  else if (sPage == "corporate-car-rentals") {
+
+    document.getElementById('a_services').classList.add('active');
+
+      document.getElementById('a_corporate_car_rentals').classList.add('active');
+
+    //   document.getElementById('CCR_a').classList.add('active');
+
+  }
+
+
+
+  else if (sPage == "corporate-fleet-management") {
+
+    document.getElementById('a_services').classList.add('active');
+
+      document.getElementById('a_corporate_fleet_management').classList.add('active');
+
+    //   document.getElementById('a_corporate_fleet_management').classList.add('active');
+
+  }
+
+
+
+  else if (sPage == "luxury-rentals") {
+
+    document.getElementById('a_services').classList.add('active');
+
+      document.getElementById('a_luxury_rentals').classList.add('active');
+
+  }
+
+
+
+  else if (sPage == "school-fleet") {
+
+    document.getElementById('a_services').classList.add('active');
+
+      document.getElementById('a_school_fleet').classList.add('active');
+
+  }
+
+
+
+  else if (sPage == "electric-fleet") {
+
+    document.getElementById('a_services').classList.add('active');
+
+      document.getElementById('a_electric_fleet').classList.add('active');
+
+  }
+
+
+
+  else if (sPage == "hotel-travel-desks") {
+
+    document.getElementById('a_services').classList.add('active');
+
+      document.getElementById('a_hotel_travel_desks').classList.add('active');
+
+  }
+
+
+
+  else if (sPage == "technology") {
+
+      document.getElementById('a_technology').classList.add('active');
+
+  }
+
+
+
+  else if (sPage == "safety") {
+
+      document.getElementById('a_safety').classList.add('active');
+
+  }
+
+
+
+  else if (sPage == "contact") {
+
+      document.getElementById('a_contact').classList.add('active');
+
+  }
+
+}
+
+fn_menuhigh();
+
+</script>
+
+
+
+</section>
+
+            <!-- header section end  -->
+
+
+
+            <!-- body section  -->
+
+            <section class="top-heading-sec">
+
+                <div class="container">
+
+                    <div class="top-headline">
+
+                        <h3>ATTACH CAR TO COMPANY</h3>
+
+                        <div class="bladcom">
+
+                            <p><a href="Hi_index.html">Home</a> / ATTACH CAR TO COMPANY</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <section class="attachheader-ctn-sec my-4">
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="col-md-4 my-3">
+
+                            <div class="attachheader-image p-2">
+
+                               
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4 my-3">
+
+                            <div class="attachheader-text p-2">
+
+                                <p>Partner with us for car attachment to grow as an entrepreneur. Walk on the path of success through our growth opportunities and gain valuable experience of working with renowned organisations.</p>
+
+
+
+                                <p>Sea Hawk provides efficient Employee Transport services to Corporates. Integrate with us to attach car to company and to enjoy the benefits of a Cab Services company, which is secure, cost effective, reliable, and efficient.</p>
+
+                                    
+
+                                <p> You can choose to attach a variety of vehicle categories like Compact, SUV/MUV, Sedans, Coach or Traveller. Sea Hawk offers you the opportunity for car attachment in</p>
+
+                                <ul>
+
+                                    <li>Bangalore</li>
+
+
+                                    <li>Hyderabad</li>
+
+
+                                </ul>
+
+                                <p>For more info, please mail at <a href="mailto:hiriderssmartmobilitysolutions@gmail.com">hiriderssmartmobilitysolutions@gmail.com</a> </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4 my-3">
+
+                            <div class="attachheader-text p-2">
+
+                                <h3>BENEFITS OF PARTNERING WITH US</h3>
+
+                                <div class="number-text">
+
+                                    <img src="number4.png">
+
+                                    <p>Organized work-flow with flexible hours of work.</p>
+
+                                </div>
+
+                                <div class="number-text">
+
+                                    <img src="number3.png">
+
+                                    <p>	Good earnings with high-rate per km/trip.</p>
+
+                                </div>
+
+                                <div class="number-text">
+
+                                    <img src="number2.png">
+
+                                    <p>Smooth and Transparent billing system.</p>
+
+                                </div>
+
+                                <div class="number-text">
+
+                                    <img src="number1.png">
+
+                                    <p>	Pan India prescence.</p>
+
+                                </div>
+
+                                <div class="number-text">
+
+                                    <img src="number.png">
+
+                                    <p>	Satisfied and happy customers.</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <section class="attachvehicle-ctn-sec">
+
+                <h3>BECOME A PARTNER! CALL NOW AT <a href="tel:XXXXX-XXXXX">+91-XXXXX-XXXXX</a></h3>
+
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-6 col-md-12 my-3">
+
+                        <div class="attachheader-text p-2">
+
+                            <h3>COMMERCIAL CABS (YELLOW PLATE) REQUIRED!</h3>
+
+                            <h4>Options-Trip Rates, 1 Pick &amp; 1 Drop, Monthly Package</h4>
+
+                            <table>
+
+                                <tbody><tr>
+
+                                <th>Location</th>
+
+                                <th>4+1</th>
+
+                                <th>6+1, 7+1, 8+1</th>
+
+                                </tr>
+
+                                <tr>
+
+                                
+
+                                <tr>
+
+                                    <td>Bengaluru</td>
+
+                                    <td>00 Vehicles</td>
+
+                                    <td>00 Vehicles</td>
+
+                                </tr>
+
+                                
+
+                        </tbody></table>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 my-3">
+
+                        <div class="form-bx px-3">
+
+                            <p>Fields marked with an <span class="form-sign" style="color: red;">*</span> are required</p>
+
+                            <form id="form" name="form" method="POST">
+
+                                <div class="form-group">
+
+                                    <label for="name">Driver/Owner Name<span class="form-sign">*</span></label>
+
+                                    <input type="text" id="dname" class="form-control">
+
+                                </div>
+
+                                
+
+                                <div class="form-group">
+
+                                    <label for="address">Present Address<span class="form-sign">*</span></label>
+
+                                    <input type="address" id="address" class="form-control">
+
+                                </div>
+
+
+
+                                <div class="form-group">
+
+                                    <label for="phone">Contact Number<span class="form-sign">*</span></label>
+
+                                    <input type="phone" id="usernumber" class="form-control">
+
+                                </div>
+
+                            
+
+                                <div class="form-group">
+
+                                    <label for="email">Email<span class="form-sign">*</span></label>
+
+                                    <input type="email" id="email" class="form-control">
+
+                                </div>
+
+                                <div class="form-group">
+
+                                    <label for="vname">Vehicle Name<span class="form-sign">*</span></label>
+
+                                    <input type="vname" id="vname" class="form-control">
+
+                                </div>
+
+
+
+                                <div class="form-group">
+
+                                    <label class="lable_text" for="vtype">Vehicle Type<span class="form_sign">*</span></label>
+
+                                    <select id="vtype" class="form-control">
+
+                                        <option value="compact">Compact</option>
+
+                                        <option value="sedan">Sedan</option>
+
+                                        <option value="muv">MUV/SUV</option>
+
+                                        <option value="traveller">Tempo Traveller</option>
+
+                                        <option value="coach">Coach</option>
+
+                                        <option value="bus">Bus</option>
+
+                                    </select>
+
+                                </div>
+
+                                <div class="form-group">
+
+                                    <label for="Ftype">Fuel Type<span class="form-sign">*</span></label>
+
+                                    <input type="text" id="ftype" class="form-control">
+
+                                </div>
+
+                                <div class="form-group">
+
+                                    <label for="regi-num">Registration Number<span class="form-sign">*</span></label>
+
+                                    <input type="number" id="regis" class="form-control">
+
+                                </div>
+
+                                <div class="form-group">
+
+                                    <label for="regi-date">Registration Date/Vehicle Year<span class="form-sign">*</span></label>
+
+                                    <input type="number" id="rdate" class="form-control">
+
+                                </div>
+
+                                <div class="form-group">
+
+                                    <label for="Capacity">Passenger Capacity<span class="form-sign">*</span></label>
+
+                                    <input type="text" id="pcapacity" class="form-control">
+
+                                </div>
+
+                                <!--
+
+                                <div class="form-group">
+
+                                    <div class="g-recaptcha" data-sitekey="6LeIW1cjAAAAAPKKY90lmrq3JcCaX8yT9swpDMcV"></div>
+
+                                </div>
+
+                                -->
+
+
+
+                                <div class="form-group">
+
+                                    <input type="button" id="submit" onclick="myFunction3()" value="SEND" class="about-btn">
+
+                                </div>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            </section>
+
+            <!-- footer section load with js  -->
+
+            <section class="footer" id="footer"><div class="container">
+    <div class="footer-content">
+        <div class="row">
+            <div class="col-lg-2 col-md-4 col-sm my-3">
+                <div class="footer-service-links">
+                    <h3>SERVICES</h3>
+                    <ul>
+                        <li><a class="footer-link-a" id="ETS_a" href="employee-transport-services.html">Employee Transportation Services</a></li>
+                        <li><a class="footer-link-a" id="CCR_a" href="corporate-car-rentals.html">Corporate Car Rentals</a></li>
+                        <li><a class="footer-link-a" id="CFMS_a" href="corporate-fleet-management.html">Corporate Fleet Management Solutions</a></li>
+                        <li><a class="footer-link-a" id="LR_a" href="luxury-rentals.html">Luxury Rentals</a></li>
+                        <!--<li><a class="footer-link-a" id="SF_a" href="school-fleet.html">School Fleet</a></li>-->
+                        <li><a class="footer-link-a" id="EF_a" href="electric-fleet.html">Electric Fleet</a></li>
+                        <!--<li><a class="footer-link-a" id="HTD_a" href="hotel-travel-desks.html">Hotel Travel Desks</a></li>
+                        <li><a class="footer-link-a" href="#">Blog</a></li>-->
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm my-3">
+                <div class="footer-state-links">
+                   
+</div><div></div>
+
+    <div class="container">
+        <div class="bottom-line-content">
+           
+
+            <div class="media-icons">
+               
+            </div>
+
+           
+        </div>
+    </div>
+</div>
+<!-- Enquery now  -->
+<section class="enquery-now">
+    <a href="contact.html">
+        <img src="enquire.jpg" alt="enquire" class="attachment-large size-large">
+    </a>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#clickToTop").click(function () {
+            $("html, body").animate(
+                {
+                    scrollTop: $("#top").offset().top,
+                },
+                2000
+            );
+        });
+    });
+</script>
+</section>
+
+            <!-- footer section end -->
+
+        </div>
+
+         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+        <script src="assets/js/jquery.js"></script>
+
+        <script src="assets/js/popper.js"></script>
+
+        <script src="assets/js/bootstrap.js"></script>
+
+        <script src="assets/js/load-script.js"></script>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+        <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+        <link rel="stylesheet" href="olivrlib/loader/loadermanager.css">
+
+        <script src="olivrlib/loader/loadermanager.js"></script><div id="alert_div"></div>
+  <div id="success_div"></div>
+  <div id="loaderDiv" style="display:none;"><img src="olivrlib/loader/images/loader.gif"></div>
+
+        <script src="olivrlib/sweetalert/SweetAlert.js"></script>
+
+        <script src="oliverweb/contact-form/contact-formmanager.js"></script>
+
+    
+
+
+
+<div id="loader" style="display: none;"><div class="loader-img"><img src="assets/images/loader/loader.svg" alt="loader"></div></div><div id="gpt-floating-chat-root"></div></body></html>
